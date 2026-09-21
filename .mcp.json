@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "catalog-discovery": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://mcp.dmp-us.informaticacloud.com/mcp-servers/public/cdgccatalogdiscovery",
+        "--header",
+        "IDS-SESSION-ID:${IDS_SESSION_ID}"
+      ]
+    }
+  }
+}
