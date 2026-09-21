@@ -5,8 +5,8 @@
       "args": [
         "mcp-remote",
         "https://mcp.dmp-us.informaticacloud.com/mcp-servers/public/cdgccatalogdiscovery",
-        "--header",
-        "IDS-SESSION-ID:${IDS_SESSION_ID}"
+        "--static-oauth-client-info",
+        "{\"client_id\":\"${IDS_CLIENT_ID}\",\"client_secret\":\"${IDS_CLIENT_SECRET}\"}"
       ]
     }
   }
